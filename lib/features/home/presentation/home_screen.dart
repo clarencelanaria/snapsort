@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                 crossAxisCount: 2,
                 crossAxisSpacing: 14,
                 mainAxisSpacing: 14,
-                childAspectRatio: 0.95,
+                childAspectRatio: 0.85,
               ),
               itemBuilder: (context, index) {
                 return FeatureCard(item: sampleFeatures[index]);
